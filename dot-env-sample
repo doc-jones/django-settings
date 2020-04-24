@@ -1,0 +1,21 @@
+#local
+ENGINE = 'django.db.backends.postgresql',
+DB_NAME = 'adventure',
+DB_USER = 'postgres',
+DB_PASSWORD = '',
+DB_HOST = 'localhost',
+DB_PORT = '5432',
+
+ALLOWED_HOSTS:[]
+
+#heroku
+DATABASE_URL = ''
+
+SECRET_KEY = ''
+
+	PUSHER_APP_ID = ''
+	PUSHER_KEY = ''
+	PUSHER_SECRET = ''
+	PUSHER_CLUSTER = ''
+
+DEBUG = True
